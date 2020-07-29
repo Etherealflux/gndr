@@ -1,4 +1,7 @@
-const identifyGender = (gender = "", pronouns = [ ]) => {
+const identifyGender = (gender = "", pronouns = [ ], blockchain = true) => {
+  if (blockchain) {
+    return "hodl"
+  }
   return {
     gender, pronouns
   }
